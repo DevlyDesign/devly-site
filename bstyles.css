@@ -1,0 +1,200 @@
+@font-face{
+   font-family:Gotham Bold; 
+   src: url(GothamBold.ttf);
+ }
+
+body {
+	font-family: "Gotham Light";
+	background: transparent;
+	width: 100%;
+}
+
+h1 {
+	font-family: "Gotham Bold";
+}
+
+html {
+	background: url('test2.png') no-repeat 0% 0%; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  
+  margin: 0;
+  padding: 0;
+}
+
+/*#ship-shape {
+	 background: url('test.png');
+	 background-repeat: repeat-x; 
+	 background-attachment: fixed;
+	 background-origin: content-box;
+	 width: 100%; */
+	
+}
+
+#navbarCollapse ul li {
+	color: black;
+}
+
+.navbar-header {
+	position: sticky;
+	display: inline-block;
+	right: 15px;
+
+}
+
+.navbar-inverse {
+	background-color: white;
+	border-style: none;
+	color: black;
+
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-toggle, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+	color: black;
+	background-color: white;
+	border: none;
+}
+
+#navvy {
+	
+
+}
+
+.navbar-inverse, .navbar-toggle {
+	color: black;
+	background-color: white !important;
+	
+
+
+}
+
+.navbar-toggle {
+	display: block !important;
+	position: fixed;
+	float: right !important;
+	right: 0;
+
+}
+
+/*.navbar-toggle button {
+	display: block !important;
+	position: fixed;
+	float: right !important;
+	right: 0;
+}*/
+
+.icon-bar {
+	background-color: black !important;
+
+}
+
+.main-bloc {
+	position: relative;
+	margin-top: 300px;
+} 
+
+#who-we-are {
+	background: none;
+	position: relative;
+	color: white;
+
+} 
+
+
+
+#services {
+	background-color: #ef495b;
+	color: white;
+	display: inline-flex;
+	position: relative;
+	padding-right, padding-left: 30px;
+
+
+}
+
+#icons {
+	position: relative;
+}
+
+#our-work {
+	background-color: #ef495b;
+	color: white;
+	border-radius: 1rem;
+}
+
+#our-work h2 {
+	font-size: 20px;
+}
+
+#our-team {
+	background-color: #ef495b;
+	color: white;
+	border-radius: 1rem;
+}
+
+
+#contact-us {
+	background-color: #ef495b;
+	color: white;
+	border-radius: 2rem;
+}
+
+.btnContact {
+	color: black;
+}
+
+
+
+#footer-social {
+background: none;
+	color: white;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	font-family: "Gotham Light";
+	border-radius: 1rem;
+	
+}
+
+#footer-social ul li {
+	list-style-type: none;
+	display: inline-flex;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+}
+
+
+@media (min-width: 768px) {
+
+
+.navbar-toggle {
+	display: none !important;
+	
+}
+
+}
+
+@media (max-width: 768px) {
+
+
+#icons {
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+#services {
+	background-color: #ef495b;
+	color: white;
+	display: block;
+
+
+}
+
+}

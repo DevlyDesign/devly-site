@@ -1,0 +1,127 @@
+@font-face{
+   font-family:Gotham Bold; 
+   src: url(GothamBold.ttf);
+ }
+
+body, html {
+	width: 100%;
+}
+
+
+#devbody {
+	height: 100vh;
+	color: #fff;
+	background: linear-gradient(-45deg, #ff416c, #ff4b2b, #ff416c, #ff4b2b);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 20s ease infinite;
+	-moz-animation: Gradient 20s ease infinite;
+	animation: Gradient 20s ease infinite;
+	max-width: 98% !important;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+#devly {
+	font-family: "Franklin Gothic Book";
+}
+
+#mainnav {
+	position: fixed;
+	top: 0;
+}
+
+
+#devnav {
+	position: fixed;
+	top: 0;
+}
+
+#devnav ul {
+	font-family: "GOTHAM";
+}
+#devnav ul li {
+	list-style-type: none;
+	display: inline-flex;
+	top: 5px;
+	margin: 0px 50px 0px 50px;
+	font-family: "Gotham Bold";
+	font-size: 14px;
+}
+
+#devnav ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+#about {
+	position: relative;
+
+}
+#who {
+	font-family: "Gotham Bold";
+	font-size: 72px;
+	
+	position: relative;
+}
+
+#whop {
+	font-family: "Franklin Gothic Book";
+	width: 950px;
+	height: 125px;
+	font-size: 20px;
+}
+footer {
+	width: 100%;
+}
+#devfoot {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	float: right;
+}
+
+#devfoot ul {
+	position: absolute;
+	float: right;
+}
+
+#devfoot ul li {
+	list-style-type: none;
+	display: inline-block;
+	float: left;
+}
+
