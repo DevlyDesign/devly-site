@@ -19,7 +19,7 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
+  
   
   margin: 0;
   padding: 0;
@@ -125,14 +125,41 @@ html {
 	border-radius: 1rem;
 }
 
+#our-work h1 {
+	font-size: 63px;
+}
+
+
 #our-work h2 {
-	font-size: 20px;
+	font-size: 36px;
+}
+
+#our-work div {
+	
+	position: relative;
+	margin-left: 3vw;
+	margin-right: 3vw;
+	margin-top: 5vh;
+	
+}
+
+#our-work img {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 7vh;
+
+	
 }
 
 #our-team {
 	background-color: #ef495b;
 	color: white;
 	border-radius: 1rem;
+}
+
+#our-team h1 {
+	font-size: 63px;
 }
 
 
