@@ -10,7 +10,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 export class DevlySidepanelComponent implements OnInit {
   bgColor: any;
 
-  constructor(private router: Router, private route: ActivatedRoute) { }
+  constructor(private router: Router, public route: ActivatedRoute) { }
 
   ngOnInit(){
     console.log(this.route);
