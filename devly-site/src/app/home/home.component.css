@@ -9,17 +9,22 @@
     
 
   }
+  html {
+    height: 100%;
+  }
   .home {
-    background-image: url('https://devlydesign.github.io/devly-site/assets/images/bg-blob1.png'); 
+    background: url('https://devlydesign.github.io/devly-site/assets/images/bg-blob1.png') no-repeat 0% 0%; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     margin: 0;
     padding: 0;
-    height: 100%;
+    position: fixed;
+    left: 0;
     width: 100%;
-    z-index: 102;
+    height: 100%;
+    z-index: 101;
 }
 
   h1,
@@ -377,5 +382,18 @@
     svg#rocket-smoke {
       display: none;
       visibility: hidden;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .content {
+      display: flex;
+      margin: 82px auto 32px;
+      padding: 0 16px;
+      max-width: 960px;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      top: 70px;
     }
   }

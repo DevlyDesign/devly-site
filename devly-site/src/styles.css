@@ -21,7 +21,7 @@
     height: 100%;
     width: 100%;
   } */
-body {
+/* body {
   background: url('assets/images/bg-blob1.png') no-repeat 0% 0%; 
     fill: white;
     -webkit-background-size: cover;
@@ -30,7 +30,7 @@ body {
     background-size: cover;
     margin: 0;
     padding: 0;
-}
+} */
 
 /* .devlydata {
   background: url('assets/images/bg-blob-blue.png') no-repeat 0% 0%; 
