@@ -385,7 +385,7 @@
     }
   }
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 500px) {
     .content {
       display: flex;
       margin: 82px auto 32px;
@@ -395,5 +395,6 @@
       align-items: center;
       position: relative;
       top: 70px;
+      color: white;
     }
   }

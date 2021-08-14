@@ -14,8 +14,8 @@ export class DevlySidepanelComponent implements OnInit {
 
   ngOnInit(){
     console.log(this.route);
-
-    if (this.route.component["name"] === "DevlyDataComponent") {
+    console.log("url",this.router.url);
+    if (this.router.url === "/devlydata") {
       console.log("hit blue");
       this.bgColor = "#0a2ea4";
     } else {
