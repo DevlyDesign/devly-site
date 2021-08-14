@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face{
+    font-family:Gotham Bold; 
+    src: url(./assets/fonts/GothamBold.ttf);
+  }
+
+  @font-face{
+    font-family:Gotham Bold Regular; 
+    src: url(/assets/fonts/Gotham\ Bold\ Regular.ttf);
+  }
+
+html {
+    background: url('assets/images/bg-blob1.png') no-repeat 0% 0%; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
