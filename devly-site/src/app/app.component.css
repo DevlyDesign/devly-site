@@ -1,5 +1,5 @@
 
-:host {
+/* :host {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 14px;
     color: #333;
@@ -10,8 +10,46 @@
 
 
 
-  }
+  } */
+/* 
+  router-outlet {
+    background: url('https://devlydesign.github.io/devly-site/assets/images/bg-blob-blue.png') no-repeat 0% 0%; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 101;
+  } */
 
+/* body {
+    background: url('https://devlydesign.github.io/devly-site/assets/images/bg-blob-blue.png') no-repeat 0% 0%; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 101;
+  } */
+
+  .image-bg {
+    background-image: url('https://devlydesign.github.io/devly-site/assets/images/bg-blob-blue.png') no-repeat 50% 50%; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 101;
+  }
   h1,
   h2,
   h3,
@@ -107,7 +145,7 @@
   }
 
   .card svg.material-icons path {
-    fill: #888;
+    fill: white;
   }
 
   .card-container {
@@ -152,7 +190,7 @@
   }
 
   .card-container .card:not(.highlight-card):hover .material-icons path {
-    fill: rgb(105, 103, 103);
+    fill: white;
   }
 
   .card.highlight-card {

@@ -9,8 +9,21 @@
     src: url(https://devlydesign.github.io/devly-site/assets/fonts/GothamBoldRegular.ttf);
   }
 
-html {
-    background: url('assets/images/bg-blob1.png') no-repeat 0% 0%; 
+/*   app-devly-data {
+    background: url('assets/images/bg-blob-blue.png') no-repeat 0% 0%; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    z-index: 101;
+    height: 100%;
+    width: 100%;
+  } */
+body {
+  background: url('assets/images/bg-blob1.png') no-repeat 0% 0%; 
+    fill: white;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -18,3 +31,13 @@ html {
     margin: 0;
     padding: 0;
 }
+
+/* .devlydata {
+  background: url('assets/images/bg-blob-blue.png') no-repeat 0% 0%; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+} */

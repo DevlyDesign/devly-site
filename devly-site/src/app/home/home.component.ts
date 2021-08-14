@@ -9,7 +9,16 @@ export class HomeComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
+
+ /*  getUrl() {
+  return "url('https://devlydesign.github.io/devly-site/assets/images/bg-blob1.png')";
+} */
   }
 
+ getUrl() {
+    return "url('https://devlydesign.github.io/devly-site/assets/images/bg-blob1.png')";
+  }
+  
 }
+

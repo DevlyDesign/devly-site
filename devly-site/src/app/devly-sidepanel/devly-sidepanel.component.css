@@ -10,7 +10,7 @@
 
   }
   .home {
-    background-image: url('https://devlydesign.github.io/devly-site/assets/images/bg-blob1.png'); 
+    background: url('https://devlydesign.github.io/devly-site/assets/images/bg-blob1.png') no-repeat 0% 0%; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -19,7 +19,7 @@
     padding: 0;
     height: 100%;
     width: 100%;
-    z-index: 102;
+    z-index: 11;
 }
 
   h1,
