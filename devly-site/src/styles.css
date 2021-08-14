@@ -1,12 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 @font-face{
     font-family:Gotham Bold; 
-    src: url(./assets/fonts/GothamBold.ttf);
+    src: url(https://devlydesign.github.io/devly-site/assets/fonts/GothamBold.ttf);
   }
 
   @font-face{
     font-family:Gotham Bold Regular; 
-    src: url(/assets/fonts/Gotham\ Bold\ Regular.ttf);
+    src: url(https://devlydesign.github.io/devly-site/assets/fonts/GothamBoldRegular.ttf);
   }
 
 html {
