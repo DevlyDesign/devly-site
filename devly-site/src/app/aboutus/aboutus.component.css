@@ -10,13 +10,10 @@
   }
 
 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2
+{
   margin: 8px 0;
-  font-family: "Gotham Bold" !important;
+  font-family: "Gotham Bold" -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 40px;
 }
 
