@@ -7,7 +7,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { DevlyDataComponent } from './devly-data/devly-data.component';
 import { AppRoutingModule } from './routing.module';
 import { DevlySidepanelComponent } from './devly-sidepanel/devly-sidepanel.component';
-import { ProjectsComponent } from './projects/projects.component'
+import { ProjectsComponent } from './projects/projects.component';
+import { DevlyFooterComponent } from './devly-footer/devly-footer.component'
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ProjectsComponent } from './projects/projects.component'
     HomeComponent,
     DevlyDataComponent,
     DevlySidepanelComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    DevlyFooterComponent
   ],
   imports: [
     BrowserModule,
