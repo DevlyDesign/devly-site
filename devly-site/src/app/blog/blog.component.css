@@ -60,14 +60,14 @@ p {
   .matcard {
       margin-top: 25px;
       background-color: orange;
-      opacity: 85%;
+     /*  opacity: 85%; */
       padding: 10px;
       border-radius: 0.5em;
   }
 
   .matcard h3, .matcard p{
       /* color: white; */
-      opacity: 100%;
+      /* opacity: 100%; */
   }
 
 
