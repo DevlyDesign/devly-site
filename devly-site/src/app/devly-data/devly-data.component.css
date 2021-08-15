@@ -18,6 +18,7 @@ h6 {
   margin: 8px 0;
   font-family: "Gotham Bold Regular" !important;
   font-size: 40px;
+  max-width: 300px;
 }
 
 p {
@@ -37,6 +38,7 @@ p {
     height: 100%;
     z-index: 101;
   }
+
 
 /*   html {
     background: url('https://devlydesign.github.io/devly-site/assets/images/bg-blob-blue.png') no-repeat 0% 0%; 
@@ -72,5 +74,20 @@ p {
       position: relative;
       color: white;
       top: 70px;
+    }
+  }
+
+  @media screen and (max-width: 1178px) {
+    .content {
+      display: flex;
+      margin: 82px auto 32px;
+      padding: 0 16px;
+      max-width: 100px;
+      /* max-width: 200px; */
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      color: white;
+      top: 170px;
     }
   }

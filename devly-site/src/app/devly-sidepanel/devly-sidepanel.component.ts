@@ -6,7 +6,7 @@ import { SideNavService } from '../services/side-nav.service';
 @Component({
   selector: 'devly-sidepanel',
   templateUrl: './devly-sidepanel.component.html',
-  styleUrls: ['./devly-sidepanel.component.css']
+  styleUrls: ['./devly-sidepanel.component.css','../../assets/styles/hover.css']
 })
 export class DevlySidepanelComponent implements OnInit {
   bgColor: any;
