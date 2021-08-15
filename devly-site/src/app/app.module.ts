@@ -6,14 +6,16 @@ import { HomeComponent } from './home/home.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { DevlyDataComponent } from './devly-data/devly-data.component';
 import { AppRoutingModule } from './routing.module';
-import { DevlySidepanelComponent } from './devly-sidepanel/devly-sidepanel.component'
+import { DevlySidepanelComponent } from './devly-sidepanel/devly-sidepanel.component';
+import { ProjectsComponent } from './projects/projects.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     DevlyDataComponent,
-    DevlySidepanelComponent
+    DevlySidepanelComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
