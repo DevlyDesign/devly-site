@@ -30,10 +30,10 @@ p {
     background-size: cover;
     margin: 0;
     padding: 0;
-    position: fixed;
+    position: relative;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 250vh;
     z-index: 101;
 }
 
@@ -44,7 +44,22 @@ p {
     max-width: 960px;
     flex-direction: column;
     align-items: center;
+    height: 150px;
   }
+
+  .matcard-about {
+    /* margin-top: 25px; */
+   /*  background-color: orange; */
+   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    position: relative;
+    top: 30vh;
+   /*  opacity: 85%; */
+   color: white;
+   font-size: 20px;
+    padding: 10px;
+    border-radius: 0.5em;
+    margin-top: 15vh;
+}
 
 
   @media screen and (max-width: 500px) {
