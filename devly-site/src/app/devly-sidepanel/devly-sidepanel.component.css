@@ -14,6 +14,18 @@
     width: 48px;
     height: 48px;
   }
+
+
+  .sidebar-label {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 33px;
+  }
+
+  div a {
+    text-decoration: none;
+  }
 /*   .home {
     background: url('https://devlydesign.github.io/devly-site/assets/images/bg-blob1.png') no-repeat; 
     -webkit-background-size: cover;
@@ -63,6 +75,10 @@
     background-color: #ef495b;
     color: white;
     font-weight: 600;
+  }
+
+  .toolbar.expand {
+    width: 300px;
   }
 
   .toolbar img {
@@ -388,6 +404,16 @@
   @media screen and (max-width: 575px) {
     svg#rocket-smoke {
       display: none;
+      visibility: hidden;
+    }
+  }
+
+  @media screen and (max-width: 1100px) {
+    .sidebar-label {
+      visibility: hidden;
+    }
+
+    .openclose {
       visibility: hidden;
     }
   }

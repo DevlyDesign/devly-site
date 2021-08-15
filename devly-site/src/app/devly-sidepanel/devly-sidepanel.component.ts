@@ -1,6 +1,7 @@
 import { Route } from '@angular/compiler/src/core';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
+import { SideNavService } from '../services/side-nav.service';
 
 @Component({
   selector: 'devly-sidepanel',
@@ -10,7 +11,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 export class DevlySidepanelComponent implements OnInit {
   bgColor: any;
 
-  constructor(private router: Router, public route: ActivatedRoute) { }
+  constructor(private router: Router, public route: ActivatedRoute, public sideNavService: SideNavService) { }
 
   ngOnInit(){
     console.log(this.route);
