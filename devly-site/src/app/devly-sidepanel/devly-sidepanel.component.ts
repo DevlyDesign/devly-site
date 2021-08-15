@@ -28,7 +28,7 @@ export class DevlySidepanelComponent implements OnInit {
       this.bgColor = "orange";
     }
     else if (this.router.url === '/about') {
-      this.bgColor = "#ef495b";
+      this.bgColor = "#6e1717";
     }
     
     else {
