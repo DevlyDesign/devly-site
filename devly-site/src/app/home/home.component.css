@@ -28,11 +28,7 @@
 }
 
   h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
+  h2 {
     margin: 8px 0;
     font-family: "Gotham Bold Regular" !important;
     font-size: 40px;

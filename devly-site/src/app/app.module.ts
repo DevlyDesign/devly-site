@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import {MatIconModule} from '@angular/material/icon';
+import { MatCardModule} from '@angular/material/card';
 import { DevlyDataComponent } from './devly-data/devly-data.component';
 import { AppRoutingModule } from './routing.module';
 import { DevlySidepanelComponent } from './devly-sidepanel/devly-sidepanel.component';
@@ -28,7 +29,8 @@ import { BlogComponent } from './blog/blog.component'
     BrowserModule,
     FlexLayoutModule,
     AppRoutingModule,
-    MatIconModule
+    MatIconModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

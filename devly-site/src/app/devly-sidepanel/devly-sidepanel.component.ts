@@ -22,7 +22,15 @@ export class DevlySidepanelComponent implements OnInit {
     else if (this.router.url === '/projects') {
       console.log("hit green");
       this.bgColor = "#0e772a";
-    } else {
+    } 
+    else if (this.router.url === '/blog') {
+      this.bgColor = "orange";
+    }
+    else if (this.router.url === '/about') {
+      this.bgColor = "#ef495b";
+    }
+    
+    else {
       console.log("hit red");
       this.bgColor = "#ef495b";
     }

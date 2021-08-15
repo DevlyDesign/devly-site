@@ -10,15 +10,13 @@
   }
 
 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2 {
   margin: 8px 0;
   font-family: "Gotham Bold" !important;
   font-size: 40px;
 }
+
+
 
 p {
     margin: 0;
@@ -39,6 +37,16 @@ p {
     z-index: 101;
 }
 
+/* .blog {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 101;
+} */
+
 .content {
     display: flex;
     margin: 82px auto 32px;
@@ -46,10 +54,22 @@ p {
     max-width: 960px;
     flex-direction: column;
     align-items: center;
+    height: 150vh;
+  }
+
+  mat-card {
+      margin-top: 25px;
+      background-color: orange;
+      opacity: 85%;
+  }
+
+  mat-card h3, mat-card p{
+      color: white;
+      opacity: 100%;
   }
 
 
-  @media screen and (max-width: 500px) {
+/*   @media screen and (max-width: 500px) {
     .content {
       display: flex;
       margin: 82px auto 32px;
@@ -61,4 +81,4 @@ p {
       color: white;
       top: 70px;
     }
-  }
+  } */
