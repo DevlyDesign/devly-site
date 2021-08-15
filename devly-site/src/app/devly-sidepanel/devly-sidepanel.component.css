@@ -9,6 +9,11 @@
     
 
   }
+
+  .mat-icon {
+    width: 48px;
+    height: 48px;
+  }
 /*   .home {
     background: url('https://devlydesign.github.io/devly-site/assets/images/bg-blob1.png') no-repeat; 
     -webkit-background-size: cover;
@@ -66,9 +71,12 @@
   }
 
   .hat {
-    margin-left: 20px;
+    margin-left: 25px;
+    position: relative;
+    top: 30px;
     cursor: pointer;
     fill: white;
+    color: white;
    
   }
 
