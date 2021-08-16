@@ -52,6 +52,7 @@ p {
 
 .content {
     display: flex;
+    /* position: absolute; */
     margin: 82px auto 32px;
     padding: 0 16px;
     max-width: 960px;
@@ -64,8 +65,10 @@ p {
 
   .matcard {
       margin-top: 25px;
+      /* position: relative; */
       background-color: orange;
      /*  opacity: 85%; */
+      margin-left: 50px;
       padding: 10px;
       border-radius: 0.5em;
   }
@@ -76,16 +79,9 @@ p {
   }
 
 
-/*   @media screen and (max-width: 500px) {
-    .content {
-      display: flex;
-      margin: 82px auto 32px;
-      padding: 0 16px;
-      max-width: 960px;
-      flex-direction: column;
-      align-items: center;
-      position: relative;
-      color: white;
-      top: 70px;
+  @media screen and (max-width: 1272px) {
+    .matcard {
+      margin-left: 65px;
+      margin-right: 25px;
     }
-  } */
+  }

@@ -386,6 +386,21 @@
     }
   }
 
+  @media screen and (max-width: 310px) {
+    .content {
+      display: flex;
+      margin: 82px auto 32px;
+      padding: 0 16px;
+      max-width: 960px;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      color: white;
+      left:25px;
+    }
+  }
+
+
   @media screen and (max-width: 500px) {
     .content {
       display: flex;
@@ -395,8 +410,15 @@
       flex-direction: column;
       align-items: center;
       position: relative;
-      top: 70px;
       color: white;
+    }
+
+    p {
+      font-size: 14px;
+    }
+
+    h2 {
+      font-size: 30px;
     }
   }
 

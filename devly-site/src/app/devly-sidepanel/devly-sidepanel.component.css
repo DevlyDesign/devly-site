@@ -65,7 +65,7 @@
     top: 0;
     left: 0;
     right: 0;
-    height: 1000px;
+    height: 100%;
     width: 70px;
     display: flex;
     flex-direction: column;
@@ -78,6 +78,7 @@
 
   .toolbar.expand {
     width: 300px;
+    padding-right: 10px;
   }
 
   .toolbar img {
@@ -134,7 +135,7 @@
   }
 
   svg.material-icons {
-    z-index: 1;
+    /* z-index: 1; */
     height: 24px;
     width: auto;
   }
@@ -413,12 +414,16 @@
     }
   }
 
-  @media screen and (max-width: 1100px) {
+  @media screen and (max-width: 1190px) {
     .sidebar-label {
       visibility: hidden;
     }
 
     .openclose {
       visibility: hidden;
+    }
+
+    .toolbar.expand {
+      width: 70px;
     }
   }
