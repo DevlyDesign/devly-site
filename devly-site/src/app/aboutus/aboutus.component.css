@@ -9,6 +9,8 @@
 
   }
 
+
+
 h1,
 h2
 {
@@ -23,28 +25,45 @@ p {
 }
 
 .about {
-    background: url('https://devlydesign.github.io/devly-site/assets/images/bg-blob-crimson.png') no-repeat 0% 0%; 
+    background: url('https://devlydesign.github.io/devly-site/assets/images/bg-blob-crimson.png') no-repeat; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     margin: 0;
     padding: 0;
-    position: absolute;
+ /*    position: absolute; */
     left: 0;
-    width: 100vw;
-    height: 650vh;
-    z-index: 101;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    /* height: 1000px; */
+    /* min-height: 200vh; */
+
+    z-index: 1;
+    padding-bottom: 400px;
+    /* overflow-y: scroll; */
+}
+
+.github-about {
+  fill: white;
+  color:white;
+  z-index: 1;
+  position: relative;
+  top: 15px;
+  right: 72px;
 }
 
 .content {
+  
     display: flex;
     margin: 82px auto 32px;
     padding: 0 16px;
     max-width: 960px;
     flex-direction: column;
     align-items: center;
-    height: 150px;
+    /* height: 100%; */
   }
 
   .matcard-about {
@@ -52,17 +71,21 @@ p {
    /*  background-color: orange; */
    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     position: relative;
-    top: 30vh;
+    top: 20vh;
    /*  opacity: 85%; */
    color: white;
    font-size: 20px;
     padding: 10px;
     border-radius: 0.5em;
-    margin-top: 15vh;
+    /* margin-top: 15vh; */
 }
 
 .mig-img, .himi-img {
   margin-right: 15px;
+}
+
+.himi {
+  padding-top:50px;
 }
 
 
@@ -122,5 +145,6 @@ p {
     color: white;
     top: 170px;
   }
+
 
 }
