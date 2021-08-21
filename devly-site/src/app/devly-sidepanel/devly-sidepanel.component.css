@@ -84,7 +84,7 @@
   .toolbar img {
     margin: 0 16px;
     position: relative;
-    top: 10px !important;
+    top: 10px;
     left: 0;
     right: 0;
   }
@@ -103,7 +103,7 @@
     /* margin: 40px 16px; */
     margin-top: 40px;
     position: relative;
-    top: 10px !important;
+    top: 10px;
     left: 0;
     right: 0;
   }
@@ -234,21 +234,30 @@
   } */
 
   .social-icons {
-      position: fixed;
+      position: absolute;
       right: 0;
+      bottom: 0;
   }
 
-  .social-icon {
-      margin-left: 10px;
-      margin-right: 10px;
+  #social-icon {
+     /*  margin-left: 10px;
+      margin-right: 10px; */
+      position: relative;
+      top: 185px;
+      right: 0;
+      bottom: 0 !important;
+  }
+
+  .facebook-ico {
+    left: 8px !important;
   }
 
   .copysign {
       color: white;
       font-size: 12px;
-      position: relative;
-      top: 10px;
-      left: 25px;
+      position: fixed;
+      bottom: 4px;
+      left: 4px;
   }
 
   .terminal {
