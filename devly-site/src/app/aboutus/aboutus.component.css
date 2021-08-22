@@ -20,6 +20,12 @@ h2
   max-width: 300px;
 }
 
+h4 {
+  font-size: 150%;
+  padding: 15px;
+  margin: 15px;
+}
+
 p {
     margin: 0;
 }
@@ -136,6 +142,17 @@ p {
 }
 
 @media screen and (max-width: 700px){
+  p {
+    width: 100% !important;
+  }
+
+  .social-icon {
+    height: 90%;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1072px){
   .mig-img, .himi-img {
     height: 50%;
     width: 50%;
