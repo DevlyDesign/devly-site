@@ -66,6 +66,16 @@ p {
     /* height: 100%; */
   }
 
+  .migs p, .himi p {
+    width: 40%;
+    position: relative;
+    top: 60px;
+  }
+
+  .mig-title-card, .himi-title-card {
+    margin-bottom:35px;
+  }
+
   .matcard-about {
     /* margin-top: 25px; */
    /*  background-color: orange; */
@@ -75,13 +85,13 @@ p {
    /*  opacity: 85%; */
    color: white;
    font-size: 20px;
-    padding: 10px;
+    padding: 20px;
     border-radius: 0.5em;
     /* margin-top: 15vh; */
 }
 
 .mig-img, .himi-img {
-  margin-right: 15px;
+  margin-right: 35px;
 }
 
 .himi {
