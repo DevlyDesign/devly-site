@@ -81,13 +81,13 @@
     padding-right: 10px;
   }
 
-  .toolbar img {
+/*   .toolbar img {
     margin: 0 16px;
     position: relative;
     top: 10px;
     left: 0;
     right: 0;
-  }
+  } */
 
   .hat {
     margin-left: 25px;
@@ -110,6 +110,11 @@
 
   .devly-icon {
       cursor: pointer;
+      margin: 0 16px;
+    position: relative;
+    top: 10px;
+    left: 0;
+    right: 0;
   }
 
 /*   .toolbar #twitter-logo {
@@ -233,24 +238,35 @@
     color: #125699;
   } */
 
-  .social-icons {
+/*   .social-icons {
       position: absolute;
       right: 0;
       bottom: 0;
-  }
+  } */
 
   #social-icon {
      /*  margin-left: 10px;
       margin-right: 10px; */
+   /*    position: fixed; */
+      /* top: 185px; */
       position: relative;
-      top: 185px;
+      /* top: 300px; */
+	    bottom: 2px;
+	    right: 2px;
+      height: 24px;
+      width: 24px;
       right: 0;
       bottom: 0 !important;
+      margin: 0px 25px;
   }
 
-  .facebook-ico {
-    left: 8px !important;
+  .socials {
+    position:fixed;
+    bottom: 15px;
   }
+/*   .facebook-ico {
+    left: 8px !important;
+  } */
 
   .copysign {
       color: white;
@@ -261,12 +277,11 @@
   }
 
   .terminal {
-      flex-direction: row;
-      display: inline-flex;
-      
+    flex-direction: row;
+    display: inline-flex;  
     position: fixed;
-	bottom: 2px;
-	right: 2px;
+	  bottom: 2px;
+	  right: 2px;
     width: 80%;
     height: 60px;
     max-width: 600px;
