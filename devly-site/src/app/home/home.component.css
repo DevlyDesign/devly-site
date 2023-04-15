@@ -434,6 +434,10 @@
       top: 70px;
       color: white;
     }
+
+    h1 {
+      font-size: 40px;
+    }
   }
 
   @media screen and (max-width: 1178px) {

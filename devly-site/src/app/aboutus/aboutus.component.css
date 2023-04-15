@@ -96,6 +96,19 @@ p {
     top: 60px;
   }
 
+  .migs h3, .himi h3 {
+    padding-top: 25px;
+    position: relative;
+    top: 4vh;
+  }
+
+  .migs h4, .himi h4 {
+    padding-top: 25px;
+    position: relative;
+    top: 5vh;
+  }
+
+
   .mig-title-card, .himi-title-card {
     margin-bottom:35px;
   }
@@ -155,9 +168,9 @@ p {
     font-size: 14px;
   }
 
-  h2 {
+ /*  h2 {
     font-size: 30px;
-  }
+  } */
 }
 
 @media screen and (max-width: 700px){
