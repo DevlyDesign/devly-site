@@ -276,7 +276,7 @@
       left: 4px;
   }
 
-  .terminal {
+/*   .terminal {
     flex-direction: row;
     display: inline-flex;  
     position: fixed;
@@ -290,7 +290,7 @@
     margin-top: 8px;
     overflow: hidden;
     background-color: rgb(15, 15, 16);
-  }
+  } */
 
   .terminal::before {
     content: "\2022 \2022 \2022";
@@ -307,12 +307,12 @@
     text-indent: 4px;
   }
 
-  .terminal pre {
+/*   .terminal pre {
     font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
     color: white;
     padding: 0 1rem 1rem;
     margin: 0;
-  }
+  } */
 
   .circle-link {
     height: 40px;

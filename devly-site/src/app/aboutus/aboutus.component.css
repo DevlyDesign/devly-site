@@ -31,25 +31,40 @@ p {
 }
 
 .about {
-    background: url('https://devlydesign.github.io/devly-site/assets/images/bg-blob-crimson.png') no-repeat; 
+/*     background: url('https://devlydesign.github.io/devly-site/assets/images/bg-blob-crimson.png') no-repeat; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     margin: 0;
     padding: 0;
- /*    position: absolute; */
+
     left: 0;
     top: 0;
     bottom: 0;
     right: 0;
     width: 100%;
-    /* height: 1000px; */
-    /* min-height: 200vh; */
+
 
     z-index: 1;
-    padding-bottom: 400px;
-    /* overflow-y: scroll; */
+    padding-bottom: 400px; */
+   /*  position: relative;
+    width: 100vw; */
+   
+}
+
+.bg {
+  background: url('https://devlydesign.github.io/devly-site/assets/images/bg-blob-crimson.png') no-repeat 0% 0%; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+/*   margin: 0;
+  padding: 0; */
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  z-index: -2;
 }
 
 .github-about {
@@ -66,10 +81,13 @@ p {
     display: flex;
     margin: 82px auto 32px;
     padding: 0 16px;
-    max-width: 960px;
+    /* max-width: 960px; */
     flex-direction: column;
     align-items: center;
     /* height: 100%; */
+    position: absolute;
+    width: calc(100vw - (100vw - 100%));
+    z-index: -1;
   }
 
   .migs p, .himi p {
@@ -94,6 +112,7 @@ p {
     padding: 20px;
     border-radius: 0.5em;
     /* margin-top: 15vh; */
+   
 }
 
 .mig-img, .himi-img {
